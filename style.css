@@ -21,10 +21,14 @@ body {
       padding-bottom: 60px;
   }
 
-  .col-8{
+  .col-8 {
       background-color: green;
   }
 
   html * {
     font-family: "Lucida Console" !important;
+  }
+
+  .accordionExample .card .card-header,
+    background-color: black;
   }
