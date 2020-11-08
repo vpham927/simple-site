@@ -3,13 +3,28 @@ body {
   }
   
   h1 {
-    
-    text-align: left;
+    text-align: center;
+    color: green;
+
   }
   
   p, li {
     font-family: verdana;
     font-size: 16px;
-    
+    color: green;
   }
   
+  .col-4 {
+      background-color: black;
+      text-align: center;
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
+
+  .col-8{
+      background-color: green;
+  }
+
+  html * {
+    font-family: "Lucida Console" !important;
+  }
