@@ -1,63 +1,49 @@
   body {
     background-image: linear-gradient(to right, #434343 0%, black 100%);
+
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
   }
-  
-  h1 {
-    text-align: left;
-    color: green;
+  h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    color: black;
 
   }
-  h2, h6 {
-    text-align: left;
-    color: green;
-  }
-  p, li {
+  p, li, ul {
     font-family: verdana;
-    color: green;
+    color: black;
+    text-align: center;
   }
   
-  .col-4 { 
+  .col-3 { 
       text-align: left;
       padding: 1em;
+      position: fixed;    
   }
 
-  .col-8 {
-      
+  .col-9, .col-4, .col-12, .col-11 {
       padding: 1em;
+      color: green;
+      border: #cdcdcd medium solid;
+      border-radius: 1px;
   }
 
   html * {
     font-family: "Lucida Console" !important;
   }
 
-  .card >  .card-header {
-    background-color: black;
+  .accordion > .card > .card-header {
+    background: black;
   }
 
-  .circle1 {
-    height: 10px;
-    width: 10px;
-    background-color:red;
-    border-radius: 50%;
-    margin: 2px;
-    float: left;
-    
-    
-  }
-  .circle2 {
-    height: 10px;
-    width: 10px;
-    background-color:orange;
-    border-radius: 50%;
-    margin: 2px;
-    float: left;
-  }
-  .circle3 {
-    height: 10px;
-    width: 10px;
-    background-color:green;
-    border-radius: 50%;
-    margin: 2px;
-    float: left;
+  .card-body {
+    background: black;
   }
 
+  section {
+    height: 70vh;
+  }
+
+  .img-thumnail {
+    margin-left: auto;
+    margin-right: auto;
+  }
