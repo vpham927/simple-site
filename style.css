@@ -1,6 +1,8 @@
   body {
     background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    font-family: "League Spartan", sans-serif;
   }
+
   
   h1,h2,h3,h4,h5,h6 {
     text-align: center;
@@ -8,7 +10,6 @@
 
   }
   p, li, ul {
-    font-family: verdana;
     color: black;
     text-align: center;
   }
@@ -16,7 +17,11 @@
   .col-3 { 
       text-align: left;
       padding: 1em;
-      position: fixed;    
+      position: fixed;  
+      font-family: "League Spartan", sans-serif;
+      font-optical-sizing: auto;
+      font-weight:900;
+      font-style: normal;  
   }
 
   .col-9, .col-4, .col-12, .col-11 {
@@ -24,10 +29,7 @@
       color: green;
       border: #cdcdcd medium solid;
       border-radius: 1px;
-  }
-
-  html * {
-    font-family: "Lucida Console" !important;
+      font-family: "League Spartan", sans-serif;
   }
 
   .accordion > .card > .card-header {
