@@ -1,118 +1,99 @@
 <!DOCTYPE html>
-<html>
-    <head>
-     <link rel="stylesheet" href="style.css">
-     <!-- Bootstrap -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-     <!-- Bootstrap Responsive meta tag-->    
-     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-     <!-- Google Font -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
-    </head>
-    
-    <body>
-        <div class="container-fluid">
-          <div class="row">
-                <div class="col-3 position-fixed">
-                  <div class="row">
-                    <div class="container text-center">
-                      <img src="me.jpg" class="img-thumbnail w-100" alt="Responsive image">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="container">
-                        <h1 class="display-4 text-center">Viet Pham</h1>
-                          <h6 class="text-center">Technical consultant at Funnelback - Squiz DXP</h6>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-9 offset-md-3">
-                  <div class="container">
-                    <div class="row">
-                      <!-- About me -->
-                      <div class="col-12">
-                        <section>
-                          <h2 >About me</h2>
-                            <p>
-                              Welcome to my online resume, this site was built using HTML and CSS. Site is hosted on AWS using the following technologies, Cloudfront and AWS Amplify. 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name - Resume</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
 
-                            </p>
-                        </section>
-                      </div>
-                
-                      <!-- Tech Stack --> 
-                      <div class="col-12">
-                          <section>
-                            <h2>Tech stack</h2>
-                              <p>
-                                Linux, HTML, CSS, Bootstrap4, Python3, Bash Scripting, Groovy, AWS, Jira, Confluence, Git, Gitlab
-                              </p>
-                          </section>
-                        </div> 
-                        <!-- Experience -->
-                        <div class="col-12">
-                        <section>
-                          <h2>Experience</h2>
-                          <!-- accordion -->
-                            <div class="accordion" id="accordionExample">
-                              <div class="card">
-                                <div class="card-header" id="headingOne">
-                                  <h2 class="mb-0">
-                                    <button class="btn btn-link btn-block text-left" style="color:green;" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                      Technical Consultant - Funnelback 2020 to present
-                                    </button>
-                                  </h2>
-                                </div>
-                            
-                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                  <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="card">
-                                <div class="card-header" id="headingTwo">
-                                  <h2 class="mb-0">
-                                    <button class="btn btn-link btn-block text-left" style="color:green;" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                      Application Support Engineer - Funnelback 2019 to 2020
-                                    </button>
-                                  </h2>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                  <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="card">
-                                <div class="card-header" id="headingThree">
-                                  <h2 class="mb-0">
-                                    <button class="btn btn-link btn-block text-left" style="color:green;" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                      Systems Administator - Empello 2015 to 2019
-                                    </button>
-                                  </h2>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                  <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                        </section>
-                      </div>
-                      <!-- Projects -->
-                      <section>
-                      
-                      </section>
-                    </div>
-                  </div>
-                </div>
-          </div>
-        </div>
-    </body>
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h1, h2 {
+      color: #ffffff;
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    p, ul {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #90caf9;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .small {
+      font-size: 0.9em;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="section">
+      <h1>Your Name</h1>
+      <p class="small">Your Title / Profession</p>
+      <p class="small">📍 Your City, Country · <a href="mailto:you@example.com">you@example.com</a> · <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+    </header>
+
+    <section class="section">
+      <h2>About Me</h2>
+      <p>Short description about your background, interests, and what you do.</p>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript, HTML, CSS</li>
+        <li>React, Node.js</li>
+        <li>Git, GitHub</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Experience</h2>
+      <p><strong>Job Title</strong> – Company Name (Year – Year)</p>
+      <p class="small">Brief summary of your responsibilities and accomplishments.</p>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <p><strong>Degree</strong> – Institution Name (Year)</p>
+    </section>
+
+    <section class="section">
+      <h2>Contact</h2>
+      <p>Feel free to reach out via email or LinkedIn.</p>
+    </section>
+  </div>
+</body>
 </html>
